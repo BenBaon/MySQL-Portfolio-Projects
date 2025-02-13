@@ -1,5 +1,7 @@
 -- Exploratory Data Analysis --
 
+-- Source: layoffs.csv
+
 -- GOAL --
 -- Explore the data using different analysis functions
 
