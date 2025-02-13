@@ -1,5 +1,7 @@
 -- MySQL Data Cleaning Project
 
+-- Source: layoffs.csv
+
 -- GOAL --
 -- 1. Create staging table (don't change raw data table)
 -- 2. Remove duplicates
