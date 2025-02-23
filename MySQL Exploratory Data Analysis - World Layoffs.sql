@@ -56,7 +56,7 @@ FROM layoffs_staging_2
 GROUP BY `date`
 ORDER BY SUM(total_laid_off) DESC;
 
-# How many total layoffs each year
+# How many total layoffs each year (excluding rows where important columns are NULL)
 SELECT YEAR(`date`) AS years, SUM(total_laid_off) AS year_total_layoffs
 FROM layoffs_staging_2
 WHERE `date` IS NOT NULL
